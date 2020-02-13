@@ -20,9 +20,9 @@ sudo bash setup.sh
 ## Run
 ```bash
 # Docker
-docker run -d -p 26000:26000/udp localhost/minetest-server:latest
+docker run -d -p 30000:30000/udp localhost/minetest-server:latest
 ```
 ```bash
 # Podman
-podman run -d -p 26000P:26000/udp localhost/minetest-server:latest
+podman run -d -p 30000:30000/udp localhost/minetest-server:latest
 ```
